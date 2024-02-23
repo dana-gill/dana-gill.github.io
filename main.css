@@ -14,6 +14,7 @@ h1 {
   color: blue;
   text-decoration: underline;
   font-size: 100px;
+  animation: reveal 1s cubic-bezier(0.01, 0, 0.175, 1) 0.5s;
 }
 
 h2 {
@@ -35,6 +36,7 @@ h4 {
 
 p {
   font-size: 28px;
+  animation: reveal 1.5s cubic-bezier(0.01, 0, 0.175, 1) 0.5s;
 }
 
 .hightlight {
@@ -65,4 +67,22 @@ a.link, a:link.link, a:active.link, a:hover.link {
 
 .subsection {
   margin-bottom: 3em;
+}
+
+@keyframes reveal-highlight {
+  0% {
+    transform: translate(-50%, 100%);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}
+
+@keyframes reveal {
+  0% {
+    transform: translate(0%,100%);
+  }
+  100% {
+    transform: translate(0,0);
+  }
 }
