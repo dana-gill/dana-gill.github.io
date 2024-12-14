@@ -20,7 +20,7 @@ h1 {
 h2 {
   color: blue;
   text-decoration: underline;
-  font-size: 7vh;
+  font-size: 8vh;
 }
 
 h3 {
@@ -30,12 +30,12 @@ h3 {
 
 h4 {
   color: black;
-  font-size: 5vh;
+  font-size: 6vh;
   font-style: italic;
 }
 
 p {
-  font-size: 3vh;
+  font-size: 4vh;
   animation: reveal 1.5s cubic-bezier(0.01, 0, 0.175, 1);
 }
 
