@@ -13,14 +13,14 @@ body {
 h1 {
   color: blue;
   text-decoration: underline;
-  font-size: 10vh;
+  font-size: 9vh;
   animation: reveal 1s cubic-bezier(0.01, 0, 0.175, 1);
 }
 
 h2 {
   color: blue;
   text-decoration: underline;
-  font-size: 8vh;
+  font-size: 7vh;
 }
 
 h3 {
@@ -30,12 +30,12 @@ h3 {
 
 h4 {
   color: black;
-  font-size: 6vh;
+  font-size: 5vh;
   font-style: italic;
 }
 
 p {
-  font-size: 4vh;
+  font-size: 3vh;
   animation: reveal 1.5s cubic-bezier(0.01, 0, 0.175, 1);
 }
 
