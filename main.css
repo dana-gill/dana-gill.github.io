@@ -48,12 +48,12 @@ h2 {
 
 h3 {
   color: blue;
-  font-size: 6vh;
+  font-size: 5vh;
 }
 
 h4 {
   color: black;
-  font-size: 6vh;
+  font-size: 5vh;
   font-style: italic;
 }
 
@@ -92,7 +92,7 @@ p.section {
 }
 
 .subsection {
-  margin-bottom: 3em;
+  margin: 6em auto;
 }
 
 @keyframes reveal-highlight {
