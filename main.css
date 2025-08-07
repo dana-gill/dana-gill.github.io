@@ -83,7 +83,7 @@ div.section {
   margin: 10em auto;
 }
 
-.subsection p {
+.subsection p, .contact p {
   font-size: 3vh;
 }
 
