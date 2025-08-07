@@ -10,21 +10,14 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  const h1Elements = document.querySelectorAll('h1');
-  h1Elements.forEach((el) => observer.observe(el));
-  
-  const h2Elements = document.querySelectorAll('h2');
-  h2Elements.forEach((el) => observer.observe(el));
-  
-  const h3Elements = document.querySelectorAll('h3');
-  h3Elements.forEach((el) => observer.observe(el));
-  
-  const h4Elements = document.querySelectorAll('h4');
-  h4Elements.forEach((el) => observer.observe(el));
-  
-  const pElements = document.querySelectorAll('p');
-  pElements.forEach((el) => observer.observe(el));
-  
-  const highlightElements = document.querySelectorAll('.highlight');
-  highlightElements.forEach((el) => observer.observe(el));
+  const isSmallScreen = window.outerWidth <= 768;
+
+  if (isSmallScreen) {
+    const allElements = document.querySelectorAll('h1, h2, h3, h4, p, .highlight');
+    allElements.forEach((el) => el.classList.add('mobile-animation'));
+    allElements.forEach((el) => el.classList.add('animate'));
+  } else {
+    const allElements = document.querySelectorAll('h1, h2, h3, h4, p, .highlight');
+    allElements.forEach((el) => observer.observe(el));
+  }
 });

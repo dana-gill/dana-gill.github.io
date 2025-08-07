@@ -15,12 +15,23 @@ h1 {
   color: blue;
   text-decoration: underline;
   font-size: 9vh;
-  opacity: 0;
 }
 
 h1.animate, h2.animate, h3.animate, h4.animate, p.animate, .highlight.animate {
   opacity: 1;
   transform: translate(0, 0);
+}
+
+.highlight.mobile-animation {
+  animation: reveal-highlight 2s cubic-bezier(0.01, 0, 0.175, 1);
+}
+
+p.mobile-animation {
+  animation: reveal 1.5s cubic-bezier(0.01, 0, 0.175, 1);
+}
+
+h1.mobile-animation {
+  animation: reveal 1s cubic-bezier(0.01, 0, 0.175, 1);
 }
 
 h1, h2, h3, h4, p, .highlight {
