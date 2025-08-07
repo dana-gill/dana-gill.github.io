@@ -57,8 +57,16 @@ a.link, a:link.link, a:active.link, a:hover.link {
   color: red;
 }
 
-.section {
-  margin: 5em auto;
+div.section {
+  margin: 10em auto;
+}
+
+.subsection p {
+  font-size: 3vh;
+}
+
+p.section {
+  margin: 1em auto;
 }
 
 .subsection {
