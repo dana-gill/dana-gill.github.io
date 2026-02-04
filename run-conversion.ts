@@ -19,7 +19,7 @@ const dom = new JSDOM(indexContent);
 
 sections.forEach(section => {
   const markdownPath = join(__dirname, 'md', `${section.file}.md`);
-  const htmlOutputPath = join(__dirname, 'md', `${section.file}.html`);
+  const htmlOutputPath = join(__dirname, 'md-html', `${section.file}.html`);
 
   const markdownContent = readFileSync(markdownPath, 'utf-8');
   const htmlContent = convertMarkdownToHtml(markdownContent);
