@@ -27,5 +27,6 @@ software and creating an *empathetic and healthy* team environment.
 Outside of tech, I enjoy music, food, wine, and nonalcoholics. If 
 you're interested, you can check out my [Instagram](https://www.
 instagram.com/dana.kusina/) to learn about what I've been making 
-and brewing at home, and you can also listen to my music on 
-[Bandcamp](https://gillianna.bandcamp.com/).
+and brewing at home, listen to my music on 
+[Bandcamp](https://gillianna.bandcamp.com/), and have a look at
+my [photos](https://www.danagill.photography/).
