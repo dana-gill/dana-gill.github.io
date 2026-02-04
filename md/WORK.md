@@ -11,6 +11,13 @@ generation. Website available [here](https://www.danagill.photography/).
 ### Software Development
 #### Seeqnc / September 2025 - Current
 
+Developed and deployed microservices for AI-powered content analysis supporting copyright protection, 
+compliance, and monetization within a cloud-native GCP architecture. Built REST APIs using Python (Quart/
+Flask) integrating ML models for audio source separation and generative AI detection. Implemented audio 
+processing pipelines with NumPy, PyTorch, librosa, and audiomentations to generate synthetic training 
+datasets. Managed containerized deployments via Docker and Cloud Run with automated CI/CD pipelines. 
+Developed CLI automation tools using TypeScript/Deno and architected LLM-powered agents with LangChain/
+LangGraph and Anthropic Claude APIs.
 
 ### Cofounder 1.0
 #### Cofounder AI / September 2025 - Current
