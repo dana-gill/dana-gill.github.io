@@ -1,5 +1,29 @@
 ## selected work
 
+### Photography Website
+#### Self / February 2026
+
+Developed a personal production photography portfolio website using Deno/Fresh
+framework with Preact, integrating Strapi CMS with distributed caching,
+implementing responsive design patterns, and building automated navigation
+generation
+
+### Software Development
+#### Seeqnc / September 2025 - Current
+
+
+### Cofounder 1.0
+#### Cofounder AI / September 2025 - Current
+
+Launched Cofounder 1.0 as the lead backend engineer, working remotely across multiple timezones. Architected 
+an agent orchestration system using the OpenAI SDK which enabled workflow management, creation of business 
+documents, and asset generation. Integrated multiple AI models including Claude Sonnet 4, GPT-4, and Gemini 
+across different platform features. Optimized system performance by implementing Redis caching for database 
+queries and led the complete migration from JavaScript to TypeScript to improve type safety and 
+maintainability. Resolved critical production bugs while collaborating closely with the founding team to 
+refine product architecture, troubleshoot issues, and deliver a successful launch that achieved strong 
+conversion rates from signups to paid users. Built using React, Vercel, Node.js, and MongoDB.
+
 ### Enabling Community Nodes on Cloud
 #### n8n / April 2025 - June 2025
 
