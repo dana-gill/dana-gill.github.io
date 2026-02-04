@@ -26,12 +26,13 @@ const convertHeading = (line: string): string => {
   return `<h${level}>${formattedText}</h${level}>`;
 };
 
-const convertParagraph = (text: string): string => {
+const convertParagraph = (text: string, addSectionClass: boolean): string => {
   const formattedText = convertInlineFormatting(text);
-  return `<p class="section">\n        ${formattedText}\n      </p>`;
+  const classAttr = addSectionClass ? ' class="section"' : '';
+  return `<p${classAttr}>\n        ${formattedText}\n      </p>`;
 };
 
-const convertBlock = (block: string): string => {
+const convertBlock = (block: string, addSectionClass: boolean): string => {
   const trimmedBlock = block.trim();
 
   if (trimmedBlock === '') {
@@ -49,11 +50,11 @@ const convertBlock = (block: string): string => {
     return convertHeading(trimmedBlock);
   }
 
-  return convertParagraph(trimmedBlock);
+  return convertParagraph(trimmedBlock, addSectionClass);
 };
 
-export const convertMarkdownToHtml = (markdown: string): string => {
+export const convertMarkdownToHtml = (markdown: string, addSectionClass: boolean = true): string => {
   const blocks = markdown.split('\n\n');
-  const htmlBlocks = blocks.map(convertBlock).filter(block => block !== '');
+  const htmlBlocks = blocks.map(block => convertBlock(block, addSectionClass)).filter(block => block !== '');
   return htmlBlocks.join('\n      ');
 };
