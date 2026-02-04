@@ -31,6 +31,11 @@ const convertBlock = (block) => {
         return '';
     }
     if (trimmedBlock.startsWith('#')) {
+        const lines = trimmedBlock.split('\n');
+        const headings = lines.filter(line => line.trim().startsWith('#'));
+        if (headings.length > 1) {
+            return headings.map(heading => convertHeading(heading)).join('\n      ');
+        }
         return convertHeading(trimmedBlock);
     }
     return convertParagraph(trimmedBlock);
