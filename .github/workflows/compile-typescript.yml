@@ -1,0 +1,33 @@
+name: Compile TypeScript
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Compile TypeScript
+        run: npm run build
+
+      - name: Commit compiled JavaScript
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add script.js
+          git diff --staged --quiet || git commit -m "🤖 Compile TypeScript to JavaScript"
+          git push
