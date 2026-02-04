@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from 'fs';
+import { mkdirSync, readFileSync, writeFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { JSDOM } from 'jsdom';
@@ -10,6 +10,8 @@ const sections = [
     { id: 'work', file: 'WORK' },
     { id: 'contact', file: 'CONTACT' }
 ];
+const mdHtmlDir = join(__dirname, 'md-html');
+mkdirSync(mdHtmlDir, { recursive: true });
 const indexPath = join(__dirname, 'index.html');
 const indexContent = readFileSync(indexPath, 'utf-8');
 const dom = new JSDOM(indexContent);
