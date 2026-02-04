@@ -4,9 +4,9 @@
 #### Self / February 2026
 
 Developed a personal production photography portfolio website using Deno/Fresh
-framework with Preact, integrating Strapi CMS with distributed caching,
+framework with Preact, integrating Strapi CMS with caching using Deno KV,
 implementing responsive design patterns, and building automated navigation
-generation
+generation. Website available [here](https://www.danagill.photography/).
 
 ### Software Development
 #### Seeqnc / September 2025 - Current
