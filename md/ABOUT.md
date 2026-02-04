@@ -1,8 +1,8 @@
 # hi, i'm dana
 
 I am a *Software Engineer* based in Berlin. I'm currently working 
-as freelance software engineer working primarily on *Python* and 
-*Typescript* projects. I also have experience working with 
+as freelance software engineer working primarily on *Typescript*
+and *Python* projects. I also have experience working with 
 Javascript, Vue, Pinia, Express, C++, Terraform, Mongo, and Azure.
 
 I studied *Computer Science* at *New York University* where I 
