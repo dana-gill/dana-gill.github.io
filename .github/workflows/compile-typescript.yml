@@ -8,6 +8,8 @@ on:
 jobs:
   compile:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout code
@@ -24,10 +26,10 @@ jobs:
       - name: Compile TypeScript
         run: npm run build
 
-      - name: Commit compiled JavaScript
+      - name: Commit compiled files
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add *.js
-          git diff --staged --quiet || git commit -m "🤖 Compile TypeScript to JavaScript"
+          git add *.js index.html
+          git diff --staged --quiet || git commit -m "🤖 Compile TypeScript and update HTML from markdown"
           git push
