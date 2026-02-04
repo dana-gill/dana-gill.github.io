@@ -41,8 +41,41 @@ const convertBlock = (block, addSectionClass) => {
     }
     return convertParagraph(trimmedBlock, addSectionClass);
 };
-export const convertMarkdownToHtml = (markdown, addSectionClass = true) => {
+const groupIntoSubsections = (htmlBlocks) => {
+    const result = [];
+    let currentSubsection = [];
+    let inSubsection = false;
+    htmlBlocks.forEach(block => {
+        if (block.startsWith('<h2>')) {
+            result.push(block);
+        }
+        else if (block.startsWith('<h3>')) {
+            if (inSubsection && currentSubsection.length > 0) {
+                const subsectionContent = currentSubsection.map(b => '        ' + b.replace(/\n      /g, '\n        ')).join('\n');
+                result.push('<div class="subsection">\n' + subsectionContent + '\n      </div>');
+                currentSubsection = [];
+            }
+            inSubsection = true;
+            currentSubsection.push(block);
+        }
+        else if (inSubsection) {
+            currentSubsection.push(block);
+        }
+        else {
+            result.push(block);
+        }
+    });
+    if (inSubsection && currentSubsection.length > 0) {
+        const subsectionContent = currentSubsection.map(b => '        ' + b.replace(/\n      /g, '\n        ')).join('\n');
+        result.push('<div class="subsection">\n' + subsectionContent + '\n      </div>');
+    }
+    return result;
+};
+export const convertMarkdownToHtml = (markdown, addSectionClass = true, useSubsections = false) => {
     const blocks = markdown.split('\n\n');
-    const htmlBlocks = blocks.map(block => convertBlock(block, addSectionClass)).filter(block => block !== '');
+    let htmlBlocks = blocks.map(block => convertBlock(block, addSectionClass)).filter(block => block !== '');
+    if (useSubsections) {
+        htmlBlocks = groupIntoSubsections(htmlBlocks);
+    }
     return htmlBlocks.join('\n      ');
 };

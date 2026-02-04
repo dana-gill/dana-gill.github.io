@@ -20,7 +20,8 @@ sections.forEach(section => {
     const htmlOutputPath = join(__dirname, 'md-html', `${section.file}.html`);
     const markdownContent = readFileSync(markdownPath, 'utf-8');
     const addSectionClass = section.id !== 'work';
-    const htmlContent = convertMarkdownToHtml(markdownContent, addSectionClass);
+    const useSubsections = section.id === 'work';
+    const htmlContent = convertMarkdownToHtml(markdownContent, addSectionClass, useSubsections);
     writeFileSync(htmlOutputPath, htmlContent, 'utf-8');
     console.log(`Successfully converted ${section.file}.md to ${section.file}.html`);
     const sectionElement = dom.window.document.getElementById(section.id);
