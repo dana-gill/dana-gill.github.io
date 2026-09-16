@@ -1,12 +1,10 @@
 ## selected work
 
-### Photography Website
-#### Self / February 2026
+### Software Development
+#### Hallo Theo / May 2026 - Current
 
-Developed a personal production photography portfolio website using Deno/Fresh
-framework with Preact, integrating Strapi CMS with caching using Deno KV,
-implementing responsive design patterns, and building automated navigation
-generation. Website available [here](https://www.danagill.photography/).
+Hardened and fine-tuned the frontend tenant portal using Next.js, FastAPI, Posthog, and D.velop to launch
+to users. Working with a lead designer to develop a design system to be used, consumed, and updated by applications and employees within the company.
 
 ### Software Development
 #### Seeqnc / September 2025 - Current
@@ -19,8 +17,15 @@ datasets. Managed containerized deployments via Docker and Cloud Run with automa
 Developed CLI automation tools using TypeScript/Deno and architected LLM-powered agents with LangChain/
 LangGraph and Anthropic Claude APIs.
 
+### Design System Migration
+#### Hallo Theo / July 2026 - August 2026
+
+Used Claude and necessary guardrails to migrated Hallo Theo's full design system from Figma files to a new 
+Typescript components to encode design intent for engineers and AI. This required making use of React, eslint, stylelint, and MCPs, and communication with design to ensure pixel perfection. The design system is
+currently being actively extended and updated to be used by everyone within the company.
+
 ### Cofounder 1.0
-#### Cofounder AI / September 2025 - Current
+#### Cofounder AI / September 2025 - May 2026
 
 Launched Cofounder 1.0 as the lead backend engineer, working remotely across multiple timezones. Architected 
 an agent orchestration system using the OpenAI SDK which enabled workflow management, creation of business 
@@ -30,6 +35,14 @@ queries and led the complete migration from JavaScript to TypeScript to improve 
 maintainability. Resolved critical production bugs while collaborating closely with the founding team to 
 refine product architecture, troubleshoot issues, and deliver a successful launch that achieved strong 
 conversion rates from signups to paid users. Built using React, Vercel, Node.js, and MongoDB.
+
+### Photography Website
+#### Self / February 2026
+
+Developed a personal production photography portfolio website using Deno/Fresh
+framework with Preact, integrating Strapi CMS with caching using Deno KV,
+implementing responsive design patterns, and building automated navigation
+generation. Website available [here](https://www.danagill.photography/).
 
 ### Enabling Community Nodes on Cloud
 #### n8n / April 2025 - June 2025

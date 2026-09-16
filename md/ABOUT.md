@@ -13,21 +13,23 @@ Front-End Engineer working in Javascript, HTML, and CSS. I also
 worked at NYU's Music and Audio Research Lab (*MARL*) working on an 
 open source library called *Librosa*.
 
-Since graduating I have worked as a *Backend Engineer* at *Meetup* 
-working in Java and occassionally Scala. I then moved to Berlin to 
-work for *Ableton*. I first worked in *Developer Tools* working on 
-CI/CD Pipelines and Cloud Computing. Afterwards, I worked on the 
-*Live* team working on prototyping for MIDI clip generation and 
-pushing software improvements for musicians. I also worked at *n8n* 
-where I worked as a *Fullstack Engineer* on projects related to AI, 
-Community Nodes, and Form improvements.
+My work experience includes being a *Backend Engineer* at  *Meetup* 
+working in Java and occassionally Scala. Afterwards, I relocated to 
+Berlin to work for *Ableton*. I first worked in *Developer Tools* 
+working on CI/CD Pipelines and Cloud Computing. Following this, I
+worked on the *Live* team working on prototyping for MIDI clip
+generation and pushing software improvements for musicians. I also
+worked at *n8n* where I worked as a *Fullstack Engineer* on projects
+related to AI, Community Nodes, and Form improvements.
+
+Lately, I've been working with pre-seed to Series A *startups* in 
+both Europe and the United States to launch, scale, and improve
+internal systems using *LLMs*, agents, and Claude.
 
 I'm passionate about delivering *high quality and well-written* 
 software and creating an *empathetic and healthy* team environment.
 
 Outside of tech, I enjoy music, photography, food, wine, and
-nonalcoholics. If you're interested, you can check out my
-[Instagram](https://www.instagram.com/dana.kusina/) to learn about
-what I've been making and brewing at home, listen to my music on
+nonalcoholics. If you're interested, you listen to my music on
 [Bandcamp](https://gillianna.bandcamp.com/), and have a look at
 my [photos](https://www.danagill.photography/).
