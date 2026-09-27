@@ -1,6 +1,6 @@
 # hi, i'm dana
 
-I am a *Software Engineer* based in Berlin. I'm currently working 
+I am a freelance *Software Engineer* in Berlin. I'm currently working 
 as *full-stack* freelance software engineer working primarily on
 *Typescript*, *Python*, and *AI* projects. I also have experience
 working with Claude, Next, Javascript, Vue, GCP, Pinia, Express,
