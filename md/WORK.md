@@ -17,6 +17,21 @@ datasets. Managed containerized deployments via Docker and Cloud Run with automa
 Developed CLI automation tools using TypeScript/Deno and architected LLM-powered agents with LangChain/
 LangGraph and Anthropic Claude APIs.
 
+### Copywright Detection for Social Media
+#### Seeqnc / April 2026 - Current
+
+Wroting and maintaining TypeScript/Node.js/Deno pipelines on GCP and Kubernetes using heavy browser
+automation tooling to detect copyrighted music across social media handles on Instagram, 
+YouTube, Pinterest, Twitter/X, and TikTok. This produced a system capable of analyzing whole account
+histories. The project serves as one of the client's prime revenue channels.
+
+### Design System Ops
+#### Hallo Theo / August 2026 - Current
+
+Building out infrastructure for consuming a design system by creating an LLM-agnostic plugin and CI pipeline
+infrastructure. The goal is a design system that applications, AI, engineers, and designers can use while
+making it accurate for LLMs, extendable, and accessible across the company.
+
 ### Design System Migration
 #### Hallo Theo / July 2026 - August 2026
 
