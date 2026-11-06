@@ -112,3 +112,83 @@ p.section {
     transform: translate(0,0);
   }
 }
+
+.pointer-cursor, .pointer-cursor:hover {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"><circle cx="10" cy="10" r="9" stroke="blue" stroke-width="2" fill="blue"/></svg>') 8 8, pointer;
+}
+
+.nav-toggle {
+  position: fixed;
+  top: 5vh;
+  right: 12vw;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 36px;
+  height: 28px;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.nav-toggle .bar {
+  display: block;
+  width: 100%;
+  height: 4px;
+  margin: 0;
+  background: blue;
+}
+
+.nav-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5vh 12vw;
+  background: white;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.4s cubic-bezier(0.01, 0, 0.175, 1), visibility 0.4s cubic-bezier(0.01, 0, 0.175, 1);
+}
+
+.nav-overlay.open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.nav-close {
+  position: absolute;
+  top: 5vh;
+  left: 12vw;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  color: blue;
+  font-size: 5vh;
+  line-height: 1;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-bottom: 20px;
+}
+
+.nav-links a {
+  font-size: 7vh;
+  color: blue;
+  text-decoration: underline;
+}
