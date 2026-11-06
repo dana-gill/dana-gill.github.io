@@ -8,4 +8,10 @@ To safeguard my own personal computer and files, I work in devcontainers. The de
 
 In terms of how I much trust I give to AI, this is dependent on the values of the organization, and what the task is. 
 
-I have worked across the spectrum of how much human is in the loop because of the organization or the task. 
+I have worked across the spectrum of how much human is in the loop because of the organization or the task. I have worked on tasks which do not require accuracy (eg: creating an MVP), but I have also worked on tasks where accuracy is paramount (eg: creating and enforcing a design system). For the former, as long as it does not need to be productionized and if the organization allows for it, I don't review rhe code. In situations where I need to hit 100% accuracy, what happens is I try to take LLMs to 60-70% and manually do the other half.
+
+There are also tasks and organizations which sit in between. In these cases, I do a skim of the code the LLMs has written to make sure nothing crazy is happening. Ultimately, if a system is in production, I do believe it is important to know what is going on because it's important to understand the architecture. I also believe that a security check is important prior to productionization.
+
+I think LLMs can help people move extremely fast for MVPs, but when it comes to tackling things at scale and productionizing work, a human is still necessary.
+
+If you'd like to hear more about how I work and even work together, don't hesitate to reach out to me: [linkedin/discord].
