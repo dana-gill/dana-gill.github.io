@@ -13,15 +13,14 @@ Front-End Engineer working in Javascript, HTML, and CSS. I also
 worked at NYU's Music and Audio Research Lab (*MARL*) working on an 
 open source library called *Librosa*.
 
-My work experience includes being a *Backend Engineer* at *Meetup* 
-where I worked in Java and occassionally Scala. Afterwards, I
-relocated to  Berlin to work for *Ableton*. I first worked in 
-*Developer Tools*  working on CI/CD Pipelines and Cloud Computing.
-Following this, I worked on the *Live* team working on prototyping 
-for MIDI clip generation and pushing software improvements for
-musicians. I also worked at *n8n* where I worked as a 
-*Fullstack Engineer* on projects related to AI, Community Nodes, 
-and Form improvements.
+My work experience includes working at *n8n* as a *Fullstack
+Engineer* on projects related to AI evaluations, Community Nodes,
+and Form improvements. I also worked for *Ableton* for 5 years. My
+first team was in *Developer Tools* working on CI/CD Pipelines and
+Cloud Computing. Following this, I worked on the *Live* team
+prototyping for MIDI clip generation and pushing software
+improvements for musicians. I was also a Backend Engineer at *Meetup*
+working in Java and occassionally Scala.
 
 Lately, I've been freelancing for pre-seed to Series B *startups*
 in both the United States and Europe and to launch, scale, and 
